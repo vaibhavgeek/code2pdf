@@ -30,7 +30,7 @@ class ConvertToPDF
   def pdf
     html ||= ''
 
-    style = 'size: 12px; font-family: Helvetica, sans-serif;'
+    style = 'size: 14px; font-family: Helvetica, sans-serif;'
 
     read_files.each do |file|
       html += "<strong style='#{style}'>File: #{file.first}</strong></br></br>"
